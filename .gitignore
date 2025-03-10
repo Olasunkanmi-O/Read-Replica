@@ -1,0 +1,16 @@
+# Ignore Terraform state files (contain sensitive data)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Terraform plan file
+tfplan
+
+# Ignore Terraform lock file (auto-generated dependency tracking)
+.terraform.lock.hcl
+
+# Ignore Terraform working directory (stores plugins and cached files)
+.terraform/
+
+# Ignore SSH keys (if test and test.pub are SSH keys)
+test
+test.pub
