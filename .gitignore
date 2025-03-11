@@ -11,6 +11,10 @@ tfplan
 # Ignore Terraform working directory (stores plugins and cached files)
 .terraform/
 
-# Ignore SSH keys (if test and test.pub are SSH keys)
+# Ignore SSH keys 
 test
 test.pub
+
+# ignore auto generated variables 
+terraform.tfvars
+*.auto.tfvars
